@@ -6,4 +6,6 @@
         stages {
             stage ("checkout") {
                  stage {
+                    git url:,branch:
+
 
